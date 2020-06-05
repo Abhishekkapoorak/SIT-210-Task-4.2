@@ -1,0 +1,28 @@
+<!-- Replace e00fce686191a4ea8899d736 with your actual device ID
+and replace b9304e4870f1e3dcd129933d195db0d1ea351f52 actual access token-->
+<!DOCTYPE>
+<html>
+<head>
+	<title>Traffic Signal Light</title>
+</head>
+	<body>
+		<center>
+			<br>
+			<br>
+			<br>
+			<form action="https://api.particle.io/v1/devices/e00fce686191a4ea8899d736/LED?access_token=b9304e4870f1e3dcd129933d195db0d1ea351f52 method="POST">
+     				Tell your device what to do!<br>
+				<br>
+				<input type="radio" name="arg" value="red">Red color 
+				<br>
+				<input type="radio" name="arg" value="yellow">Yellow color
+				<br>
+				<input type="radio" name="arg" value="green">Green color
+				<br>
+				<input type="submit" value="Turn on LED">
+				<br>
+				<br>
+			</form>
+		</center>
+	</body>
+</html>
